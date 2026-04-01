@@ -12,33 +12,34 @@ All scripts are fully self‑contained and, after adjusting file paths, can be r
 
 ## Repository contents
 
+```
 The repository is organized into separate folders for each dataset. Each folder contains its own input files, analysis script, and output results.
+
 .
 ├── TCGA-LIHC/
-│ ├── input/
-│ │ ├── TCGA-LIHC_MergeCOUNT.txt # raw count matrix
-│ │ └── id_symble_type.Rda # gene ID mapping
-│ ├── scripts/
-│ │ └── TCGA_DEG_analysis.R # DESeq2 analysis script
-│ └── output/
-│ └── TCGA-Differentially expressed genes.csv # results (pre‑generated)
+│   ├── input/
+│   │   ├── TCGA-LIHC_MergeCOUNT.txt   # raw count matrix
+│   │   └── id_symble_type.Rda         # gene ID mapping
+│   ├── scripts/
+│   │   └── TCGA_DEG_analysis.R        # DESeq2 analysis script
+│   └── output/
+│       └── TCGA-Differentially expressed genes.csv   # results (pre‑generated)
 │
 ├── GSE45114/
-│ ├── input/
-│ │ ├── GPL5918.txt # platform annotation
-│ │ ├── GSE45114_series_matrix.txt # expression matrix
-│ │ └── sample_Type.txt # sample grouping
-│ ├── scripts/
-│ │ └── GSE45114_DEG_analysis.R # limma analysis script
-│ └── output/
-│ └── GSE45114-Differentially expressed genes.csv
+│   ├── input/
+│   │   ├── GPL5918.txt                # platform annotation
+│   │   ├── GSE45114_series_matrix.txt # expression matrix
+│   │   └── sample_Type.txt            # sample grouping
+│   ├── scripts/
+│   │   └── GSE45114_DEG_analysis.R    # limma analysis script
+│   └── output/
+│       └── GSE45114-Differentially expressed genes.csv
 │
-├── GSE60502/ # second GEO dataset (similar structure)
-├── GSE36376/ # third GEO dataset (similar structure)
+├── GSE60502/      # second GEO dataset (similar structure)
+├── GSE36376/      # third GEO dataset (similar structure)
 │
-└── README.md # this file
-
-text
+└── README.md      # this file
+```
 
 *Note:* The exact GEO accession numbers for the second and third datasets should be filled in according to your study.
 
