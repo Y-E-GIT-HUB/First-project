@@ -1,4 +1,4 @@
-#导入数据和注释包
+# Loading data
 library(dplyr)
 library(tidyr)
 GPL10558 <-data.table::fread("C:/GSE36376/GPL10558-50081.txt",skip ="ID")
